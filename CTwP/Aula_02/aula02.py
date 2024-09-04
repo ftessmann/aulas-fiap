@@ -111,3 +111,6 @@ bool(3.14) # true
 10 <= 5 # False
 10 <= 10 # True
 10 <= 11 # True
+
+#incrementador
+1 += 1 #o incrementador pode ser feito com qualquer número
