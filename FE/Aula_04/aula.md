@@ -1,4 +1,4 @@
-tag <ul> unordered list, lista não ordenada
+tag "<ul>" unordered list, lista não ordenada
 tipos de lista não ordenada:
     - padrão
     - disc
@@ -6,6 +6,6 @@ tipos de lista não ordenada:
     - square
     - none
 
-tag <ol> ordered list, lista ordenada
+tag "<ol>" ordered list, lista ordenada
 
-elemento <nav> de navegação, contem links ou conjunto de links para outras paginas ou recursos
+elemento "<nav>" de navegação, contem links ou conjunto de links para outras paginas ou recursos
