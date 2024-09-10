@@ -18,16 +18,16 @@ while opcaoMenu != 7:
     opcaoMenu = int(input("Escolha a sua opção: "))
     if opcaoMenu == 1:
         resultado = numero1 + numero2
-        print(f"Sua soma é:", resultado)
+        print(f"Sua soma é: ", resultado)
     elif opcaoMenu == 2:
         resultado = numero1 * numero2
-        print(f"Sua multiplicação é:", resultado)
+        print(f"Sua multiplicação é: ", resultado)
     elif opcaoMenu == 3:
         resultado = numero1 / numero2
-        print(f"Sua divisão é:", resultado)
+        print(f"Sua divisão é: ", resultado)
     elif opcaoMenu == 4:
         resultado = numero1 - numero2
-        print(f"Sua subtração é:", resultado)
+        print(f"Sua subtração é: ", resultado)
     elif opcaoMenu == 5:
         if numero1 > numero2:
             maior = numero1
