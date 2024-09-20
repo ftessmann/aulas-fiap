@@ -22,8 +22,9 @@ diaAtual = data.day
 mesAtual = data.month
 anoAtual = data.year
 
-idade = anoAtual - anoNascimento
+dataAtual = datetime.datetime.now().date()
 
+idade = anoAtual - anoNascimento
 
 if mesAtual < mesNascimento or (mesAtual == mesNascimento and diaAtual < diaNascimento):
     idade -= 1
@@ -31,8 +32,10 @@ if mesAtual < mesNascimento or (mesAtual == mesNascimento and diaAtual < diaNasc
 else:
     fezAniversario = True
 
+print("A data atual é:", dataAtual)
 
 print("Você tem", idade, "anos")
+
 if fezAniversario and (mesAtual == mesNascimento and diaAtual == diaNascimento):
     print("Hoje é seu anivesário, parabéns!")
 elif fezAniversario:
