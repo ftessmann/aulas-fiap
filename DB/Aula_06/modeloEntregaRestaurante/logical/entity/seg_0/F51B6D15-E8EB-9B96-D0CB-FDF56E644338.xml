@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F51B6D15-E8EB-9B96-D0CB-FDF56E644338" name="ItemsPratos">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 12:21:48 UTC</createdTime>
+<ownerDesignName>modeloEntregaRestaurante</ownerDesignName>
+<engineerTo>
+<item key="42524853-1C6A-CC68-1875-BCF64568C10D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="itensId" id="481987AD-6904-159C-2799-701AC4FC6C69">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 12:22:02 UTC</createdTime>
+<ownerDesignName>modeloEntregaRestaurante</ownerDesignName>
+<engineerTo>
+<item key="42524853-1C6A-CC68-1875-BCF64568C10D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pedidoId" id="0E89639D-1CFB-61E6-78AD-09FE61A4179C">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 12:24:22 UTC</createdTime>
+<generatorID>6D93E49F-0636-0357-BF66-5797FD3C82CB</generatorID>
+<ownerDesignName>modeloEntregaRestaurante</ownerDesignName>
+<engineerTo>
+<item key="42524853-1C6A-CC68-1875-BCF64568C10D" value="true"/>
+</engineerTo>
+<referedAttribute>7F60EA89-C1D4-07A2-E473-C127652E03C5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="clienteId" id="78A47BDB-98C7-460B-A45F-5423D2D835C6">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 12:24:22 UTC</createdTime>
+<generatorID>6D93E49F-0636-0357-BF66-5797FD3C82CB</generatorID>
+<ownerDesignName>modeloEntregaRestaurante</ownerDesignName>
+<engineerTo>
+<item key="42524853-1C6A-CC68-1875-BCF64568C10D" value="true"/>
+</engineerTo>
+<referedAttribute>7FD0E851-F425-F926-7678-6925F1C6AA58</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidade" id="2F66D499-37EE-9B13-BC7F-8E25400B73B7">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 12:25:12 UTC</createdTime>
+<ownerDesignName>modeloEntregaRestaurante</ownerDesignName>
+<engineerTo>
+<item key="42524853-1C6A-CC68-1875-BCF64568C10D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pratoId" id="CCBEFB22-26DA-887B-476B-A09AC49A67E1">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 12:36:10 UTC</createdTime>
+<generatorID>71FB5722-A97E-A9D1-EF36-1F48A47EB9C1</generatorID>
+<ownerDesignName>modeloEntregaRestaurante</ownerDesignName>
+<engineerTo>
+<item key="42524853-1C6A-CC68-1875-BCF64568C10D" value="true"/>
+</engineerTo>
+<referedAttribute>01EA1A5E-840E-5D6E-BD9F-D2857204A009</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="restauranteId" id="C27AB3D3-4DDB-9A6B-D1B2-98FE542287BA">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 12:36:10 UTC</createdTime>
+<generatorID>71FB5722-A97E-A9D1-EF36-1F48A47EB9C1</generatorID>
+<ownerDesignName>modeloEntregaRestaurante</ownerDesignName>
+<engineerTo>
+<item key="42524853-1C6A-CC68-1875-BCF64568C10D" value="true"/>
+</engineerTo>
+<referedAttribute>2B34355E-ED67-6EC0-4384-4D31B914BA28</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="restauranteId1" id="F3E13114-C3E5-110B-475F-D590379429F0">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 12:44:54 UTC</createdTime>
+<generatorID>6D93E49F-0636-0357-BF66-5797FD3C82CB</generatorID>
+<ownerDesignName>modeloEntregaRestaurante</ownerDesignName>
+<engineerTo>
+<item key="42524853-1C6A-CC68-1875-BCF64568C10D" value="true"/>
+</engineerTo>
+<referedAttribute>D00C653C-1468-D999-4E2F-E248933D219C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BC46DA8E-FF1C-7BA6-8E81-E12E551A5FB7" name="ItemsPedido PK">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 12:22:07 UTC</createdTime>
+<ownerDesignName>modeloEntregaRestaurante</ownerDesignName>
+<engineerTo>
+<item key="42524853-1C6A-CC68-1875-BCF64568C10D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>481987AD-6904-159C-2799-701AC4FC6C69</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

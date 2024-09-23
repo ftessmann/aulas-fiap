@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="cursoTem" directorySegmentName="seg_0" id="DD19DD49-F70F-0182-2EC5-99C1DAE20134">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:29:12 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="ACD169A9-17CA-FC4A-41F3-98939EAF71C5" value="true"/>
+</engineerTo>
+<sourcePk>1B856D30-937B-34C3-0372-FDC969B692C9</sourcePk>
+<targetPk>785CEAE1-A61E-552C-3F66-3E17CB6B75C4</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1AF592F9-1C92-CF6E-974D-94F37EBE005C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3959E7AA-D87F-E8F0-0427-0233EF8D4B6B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9DF9B1AC-D2A4-2AEC-EEC8-C45B42926507" name="Disciplina">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:04:42 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="ACD169A9-17CA-FC4A-41F3-98939EAF71C5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="disciplinaId" id="A81185A1-A24D-0BDE-0647-0E3B261E132C">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:13:46 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="ACD169A9-17CA-FC4A-41F3-98939EAF71C5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="5A93779B-B0BC-A497-3A06-533BACABD273">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:13:53 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="ACD169A9-17CA-FC4A-41F3-98939EAF71C5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cargaHoraria" id="0E20A46E-84A3-877E-5E1B-4EC83D70BC7B">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:13:56 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="ACD169A9-17CA-FC4A-41F3-98939EAF71C5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="planoEnsino" id="15E8626A-ACAD-3B56-6F06-384EB8619CB0">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:14:01 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="ACD169A9-17CA-FC4A-41F3-98939EAF71C5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cursoId" id="DEBDC590-C596-D521-A224-C5F0C11C3A70">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:30:03 UTC</createdTime>
+<generatorID>6BFCE0C8-1A18-49C9-4220-383EF28A8E93</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="ACD169A9-17CA-FC4A-41F3-98939EAF71C5" value="true"/>
+</engineerTo>
+<referedAttribute>B38795A4-3C46-4650-B55E-92EA20523808</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9CC94904-F2BA-A798-51EC-BC71DE4A50F9" name="Disciplina PK">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:13:51 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="ACD169A9-17CA-FC4A-41F3-98939EAF71C5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A81185A1-A24D-0BDE-0647-0E3B261E132C</attributeRef>
+<attributeRef>DEBDC590-C596-D521-A224-C5F0C11C3A70</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

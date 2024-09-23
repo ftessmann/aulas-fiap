@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D2DD89D0-7DEB-87F4-29E5-CD0ACF4C930F" name="Professor">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:04:47 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="ACD169A9-17CA-FC4A-41F3-98939EAF71C5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nome" id="40E527DB-6817-C6AE-2288-CEAD37069607">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:08:36 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="ACD169A9-17CA-FC4A-41F3-98939EAF71C5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="013A63DA-0C39-233B-0705-725D35FD6C26">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:08:40 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="ACD169A9-17CA-FC4A-41F3-98939EAF71C5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="professorId" id="1B59DFEF-460A-086D-D647-4E82402078C2">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:08:55 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="ACD169A9-17CA-FC4A-41F3-98939EAF71C5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="30C3F831-10CC-717A-6E8D-4A8B12E68624">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:10:04 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="ACD169A9-17CA-FC4A-41F3-98939EAF71C5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataDeNascimento" id="E872AE10-BCA6-4FE7-F701-03A7DE86FA36">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:11:00 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="ACD169A9-17CA-FC4A-41F3-98939EAF71C5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="40FCFEA6-C86A-FE5F-D73D-DEF79A8656FE" name="Professor PK">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:13:23 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="ACD169A9-17CA-FC4A-41F3-98939EAF71C5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1B59DFEF-460A-086D-D647-4E82402078C2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

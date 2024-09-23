@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D3EBA91A-1B1E-50F5-960C-87125674F7A8" name="AvaliacaoPedido">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:52:20 UTC</createdTime>
+<ownerDesignName>modeloEntregaRestaurante</ownerDesignName>
+<engineerTo>
+<item key="42524853-1C6A-CC68-1875-BCF64568C10D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="avaliacaoPedidoId" id="BD917FAE-46F2-7A63-7417-79609274DC7F">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:52:38 UTC</createdTime>
+<ownerDesignName>modeloEntregaRestaurante</ownerDesignName>
+<engineerTo>
+<item key="42524853-1C6A-CC68-1875-BCF64568C10D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estrelas" id="C1461A29-B5D3-B5D6-CB38-B90F623872F3">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:52:44 UTC</createdTime>
+<ownerDesignName>modeloEntregaRestaurante</ownerDesignName>
+<engineerTo>
+<item key="42524853-1C6A-CC68-1875-BCF64568C10D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comentario" id="C79AB2D5-1315-5702-A3FF-AE81AC8B1817">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:52:57 UTC</createdTime>
+<ownerDesignName>modeloEntregaRestaurante</ownerDesignName>
+<engineerTo>
+<item key="42524853-1C6A-CC68-1875-BCF64568C10D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pedidoId" id="1F220208-00C3-1342-6FC9-BDAAFAF330EA">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 12:48:14 UTC</createdTime>
+<generatorID>786B3A14-44B6-61E7-E6F3-EE52B9E3F3A4</generatorID>
+<ownerDesignName>modeloEntregaRestaurante</ownerDesignName>
+<engineerTo>
+<item key="42524853-1C6A-CC68-1875-BCF64568C10D" value="true"/>
+</engineerTo>
+<referedAttribute>7F60EA89-C1D4-07A2-E473-C127652E03C5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="clienteId" id="0AA44011-FB43-EA65-3652-84937AAD2BD4">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 12:48:14 UTC</createdTime>
+<generatorID>786B3A14-44B6-61E7-E6F3-EE52B9E3F3A4</generatorID>
+<ownerDesignName>modeloEntregaRestaurante</ownerDesignName>
+<engineerTo>
+<item key="42524853-1C6A-CC68-1875-BCF64568C10D" value="true"/>
+</engineerTo>
+<referedAttribute>7FD0E851-F425-F926-7678-6925F1C6AA58</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="restauranteId" id="9E458B6E-5832-0F1A-BDAC-D9EEDDCB3B31">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 12:48:14 UTC</createdTime>
+<generatorID>786B3A14-44B6-61E7-E6F3-EE52B9E3F3A4</generatorID>
+<ownerDesignName>modeloEntregaRestaurante</ownerDesignName>
+<engineerTo>
+<item key="42524853-1C6A-CC68-1875-BCF64568C10D" value="true"/>
+</engineerTo>
+<referedAttribute>D00C653C-1468-D999-4E2F-E248933D219C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CA30333A-FDF3-0262-0B0C-4E5AA405EF13" name="AvaliacaoPedido PK">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 12:47:00 UTC</createdTime>
+<ownerDesignName>modeloEntregaRestaurante</ownerDesignName>
+<engineerTo>
+<item key="42524853-1C6A-CC68-1875-BCF64568C10D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BD917FAE-46F2-7A63-7417-79609274DC7F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA206CA2-2228-5CB5-7630-0647052C89CC" name="Usuario">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:46:19 UTC</createdTime>
+<ownerDesignName>modeloEntregaRestaurante</ownerDesignName>
+<engineerTo>
+<item key="42524853-1C6A-CC68-1875-BCF64568C10D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="email" id="3C7E615B-2F31-7FC7-115A-D43182DEC114">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:46:41 UTC</createdTime>
+<ownerDesignName>modeloEntregaRestaurante</ownerDesignName>
+<engineerTo>
+<item key="42524853-1C6A-CC68-1875-BCF64568C10D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="senha" id="15F9CD02-8AF8-4E10-051B-800C64E38249">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:46:45 UTC</createdTime>
+<ownerDesignName>modeloEntregaRestaurante</ownerDesignName>
+<engineerTo>
+<item key="42524853-1C6A-CC68-1875-BCF64568C10D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuarioId" id="F500D950-0959-A367-2FCA-464A4A68EBF0">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:46:47 UTC</createdTime>
+<ownerDesignName>modeloEntregaRestaurante</ownerDesignName>
+<engineerTo>
+<item key="42524853-1C6A-CC68-1875-BCF64568C10D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="restauranteId" id="948DEFD4-7C70-9D5E-6C3C-59EBCEA4A664">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:57:54 UTC</createdTime>
+<generatorID>E37AECF4-360F-574A-DF4A-0E142072172F</generatorID>
+<ownerDesignName>modeloEntregaRestaurante</ownerDesignName>
+<engineerTo>
+<item key="42524853-1C6A-CC68-1875-BCF64568C10D" value="true"/>
+</engineerTo>
+<referedAttribute>9261E40E-2E82-5E30-9CE0-2557FBA97C04</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="clienteId" id="027488C8-6FFC-1A9B-821C-30B9407780F4">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:58:07 UTC</createdTime>
+<generatorID>935535D7-FC04-37E0-E685-0E14D2CB45E2</generatorID>
+<ownerDesignName>modeloEntregaRestaurante</ownerDesignName>
+<engineerTo>
+<item key="42524853-1C6A-CC68-1875-BCF64568C10D" value="true"/>
+</engineerTo>
+<referedAttribute>5D692DBD-AC19-5306-5A26-1E13623A8E56</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3D52E26D-98EB-092C-682F-4491448C9B17" name="Usuario PK">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:46:51 UTC</createdTime>
+<ownerDesignName>modeloEntregaRestaurante</ownerDesignName>
+<engineerTo>
+<item key="42524853-1C6A-CC68-1875-BCF64568C10D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F500D950-0959-A367-2FCA-464A4A68EBF0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

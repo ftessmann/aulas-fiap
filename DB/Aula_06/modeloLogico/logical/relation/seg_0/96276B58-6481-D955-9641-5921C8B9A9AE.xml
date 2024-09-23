@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="turmaPossui" directorySegmentName="seg_0" id="96276B58-6481-D955-9641-5921C8B9A9AE">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:18:01 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="ACD169A9-17CA-FC4A-41F3-98939EAF71C5" value="true"/>
+</engineerTo>
+<sourcePk>785CEAE1-A61E-552C-3F66-3E17CB6B75C4</sourcePk>
+<targetPk>6145221C-F969-82A5-B8C2-DDE54A1C3121</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3959E7AA-D87F-E8F0-0427-0233EF8D4B6B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>67B775BE-B3B4-3305-D4DC-297529D729C7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

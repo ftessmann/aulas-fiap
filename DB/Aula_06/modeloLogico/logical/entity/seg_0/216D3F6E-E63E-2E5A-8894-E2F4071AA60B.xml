@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="216D3F6E-E63E-2E5A-8894-E2F4071AA60B" name="Grade">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:05:50 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="ACD169A9-17CA-FC4A-41F3-98939EAF71C5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="gradeId" id="94F01288-1651-6391-D287-4C632908919A">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:12:48 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="ACD169A9-17CA-FC4A-41F3-98939EAF71C5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horaInicio" id="B0A21F8D-F4C0-2C43-4A65-2379E87B6A2B">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:12:53 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="ACD169A9-17CA-FC4A-41F3-98939EAF71C5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horaFim" id="8B564337-09B6-B694-3EEF-E8D40E3A7C65">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:13:02 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="ACD169A9-17CA-FC4A-41F3-98939EAF71C5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sala" id="E42C344D-3480-F984-BAE1-1830F01B035F">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:13:07 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="ACD169A9-17CA-FC4A-41F3-98939EAF71C5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="andar" id="BBA7ADC5-0D5E-8B20-03FB-116C5AFDC5F9">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:13:13 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="ACD169A9-17CA-FC4A-41F3-98939EAF71C5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="professorId" id="39B11229-3EE9-CBDE-5929-51ABFACF5F19">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:21:30 UTC</createdTime>
+<generatorID>61349832-AE75-C0B4-A1B1-6F185F6F078A</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="ACD169A9-17CA-FC4A-41F3-98939EAF71C5" value="true"/>
+</engineerTo>
+<referedAttribute>1B59DFEF-460A-086D-D647-4E82402078C2</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="turmaId" id="4DAC1AFA-00AD-6B9A-5C8A-3BCC3479C56A">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:21:57 UTC</createdTime>
+<generatorID>4DCAB27D-F4C7-0CB9-D182-DD4B0009F3D0</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="ACD169A9-17CA-FC4A-41F3-98939EAF71C5" value="true"/>
+</engineerTo>
+<referedAttribute>2CDAD70C-8477-8B93-DF14-5C359A483D33</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="disciplinaId" id="DF1A0903-4474-DCDF-A659-3942B413D795">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:22:40 UTC</createdTime>
+<generatorID>49DD56E4-575F-4F09-F5DD-DBFD3B12DF6F</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="ACD169A9-17CA-FC4A-41F3-98939EAF71C5" value="true"/>
+</engineerTo>
+<referedAttribute>A81185A1-A24D-0BDE-0647-0E3B261E132C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cursoId" id="8EF2D099-742D-1598-2D3E-3413DFE7B874">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:30:03 UTC</createdTime>
+<generatorID>49DD56E4-575F-4F09-F5DD-DBFD3B12DF6F</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="ACD169A9-17CA-FC4A-41F3-98939EAF71C5" value="true"/>
+</engineerTo>
+<referedAttribute>DEBDC590-C596-D521-A224-C5F0C11C3A70</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BAFF97BB-9354-BFC9-BD6F-280486FE5320" name="Grade PK">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:12:52 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="ACD169A9-17CA-FC4A-41F3-98939EAF71C5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>94F01288-1651-6391-D287-4C632908919A</attributeRef>
+<attributeRef>39B11229-3EE9-CBDE-5929-51ABFACF5F19</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

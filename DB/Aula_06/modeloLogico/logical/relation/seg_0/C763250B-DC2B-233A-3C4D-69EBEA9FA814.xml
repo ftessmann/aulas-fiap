@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="alunoTem" directorySegmentName="seg_0" id="C763250B-DC2B-233A-3C4D-69EBEA9FA814">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:18:48 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="ACD169A9-17CA-FC4A-41F3-98939EAF71C5" value="true"/>
+</engineerTo>
+<sourcePk>6145221C-F969-82A5-B8C2-DDE54A1C3121</sourcePk>
+<targetPk>6529B0D8-FFD7-D943-BE8C-D7364B30E7F3</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>67B775BE-B3B4-3305-D4DC-297529D729C7</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>B29FF80A-7681-B061-736C-135E4FD14297</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

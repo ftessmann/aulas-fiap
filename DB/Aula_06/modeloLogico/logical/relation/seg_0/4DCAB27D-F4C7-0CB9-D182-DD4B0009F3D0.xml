@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="turmaPossuiv1" directorySegmentName="seg_0" id="4DCAB27D-F4C7-0CB9-D182-DD4B0009F3D0">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-23 11:21:57 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="ACD169A9-17CA-FC4A-41F3-98939EAF71C5" value="true"/>
+</engineerTo>
+<sourcePk>785CEAE1-A61E-552C-3F66-3E17CB6B75C4</sourcePk>
+<targetPk>BAFF97BB-9354-BFC9-BD6F-280486FE5320</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3959E7AA-D87F-E8F0-0427-0233EF8D4B6B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>216D3F6E-E63E-2E5A-8894-E2F4071AA60B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
