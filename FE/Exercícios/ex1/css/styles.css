@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper {
+    width: 1328px;
+    height: 1600px;
+    background-color: #666;
+}
+
+.userMenu {
+    width: 1328px;
+    height: 30px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.userMenu .content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.userImg {
+    width: 30px;
+    height: 30px;
+}
+
+.userOptions a {
+    text-decoration: none;
+}
+
+.userOptions a:hover {
+    cursor: pointer;
+}
+
+.logoSpace {
+    width: 1328px;
+    height: 250px;
+    background-color: #eee;
+    text-align: center;
+}
+
+.content {
+    margin: 0 30px 0 30px;
+}
+
+.logoImg {
+    width: 230px;
+    height: 230px;
+    padding: 8px;
+}
+
+.navMenu {
+    width: 1328px;
+    height: 30px;
+    background-color: #ccc;
+}
+
+.navMenu li {
+    float: left;
+    list-style: none;
+    line-height: 30px;
+}
+
+.navMenu li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navMenu li a:hover {
+    cursor: pointer;
+}
+
+.navMenu li ul:hover {
+    background-color: #666;
+    transition: 500ms;
+}
+
+.navMenu li a ul {
+    float: left;
+    margin-right: 20px;
+}
+
+main {
+    width: 1328px;
+    height: 1209px;
+    background-color:#eee;
+}
+
+
+.box {
+    width: 296px;
+    height: 296px;
+    border: 2px solid #f8ba00;
+    float: left;
+    margin: 10px 17px 0 0;
+    border-radius: 148px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box1 {
+    background-image: url('../images/claptrap.png');
+}
+
+.box2 {
+    background-image: url('../images/vault.png');
+}
+
+.box3 {
+    background-image: url('../images/krieg.png')
+}
+
+.box4 {
+    background-image: url('../images/maya.png')
+}
+
+.rectangle {
+    width: 620px;
+    height: 250px;
+    border: 2px solid #000;
+    float: left;
+    margin: 20px 10px 0 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.interfacer {
+    width: 250px;
+    height: 120px;
+    margin: 15px;
+}
+
+.handsome {
+    width: 300px;
+    height: 250px;
+}
+
+.textRectangle {
+    margin: 10px;
+    text-align: justify;
+}
+
+.banner {
+    width: 1250px;
+    height: 600px;
+    float: left;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-image: url("../images/heros.png");
+    background-position: center;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.textBanner {
+    margin: 30px;
+}
+
+.linksFooter {
+    text-align: center;
+}
+
+.linksFooter ul {
+    display: inline-block;
+    padding: 0;
+    margin: 15px;
+}
+
+.linksFooter li {
+    float: inline;
+    list-style-type: none;
+}
+
+.linksFooter a {
+    text-decoration: none;
+}
+
+.footerContent {
+    text-align: center;
+}
+
+.textFooter {
+    align-items: center;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.textFooter a {
+    text-decoration: none;
+}
