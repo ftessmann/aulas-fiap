@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.wrapper {
+    width: 1920px;
+    height: 1400px;
+    background-color: #000;
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 72px;
+}
+
+.content {
+    margin: 60px;
+}
+
+main {
+    width: 1920px;
+    height: 960px;
+}
+
+.elementos {
+    width: 98px;
+    height: 98px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    float: left;
+    border-radius: 5px;
+    margin: 1px;
+    text-align: center;
+}
+
+.numeroElemento {
+    text-align: left;
+    margin-left: 5px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+.noshow {
+    border: 2px solid #000;
+}
+
+.naoMetais {
+    border: 2px solid #a3ff33;
+}
+
+.metaisAlcalinos {
+    border: 2px solid #ffae00
+}
+
+.metaisAlcTerrosos {
+    border: 2px solid #ff0
+}
+
+.metaisTransicao {
+    border: 2px solid #ff9add;
+}
+
+.semiMetais {
+    border: 2px solid #6df8bc;
+}
+
+.outrosMetais {
+    border: 2px solid #ccc;
+}
+
+.halogenios {
+    border: 2px solid #6edaf8;
+}
+
+.gasesNobres {
+    border: 2px solid #413aff;
+}
+
+.lantanideos {
+    border: 2px solid #51fc87;
+}
+
+.actinidios {
+    border: 2px solid #faa9f8;
+}
+
+
+footer {
+    margin: 50px;
+}
+
+.integrantes {
+    margin: 50px;
+    text-align: center;
+}
