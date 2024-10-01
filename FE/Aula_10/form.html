@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Formulários</title>
+    </head>
+    <body>
+        <form name="frmCadastro" method="post"> <!--todos os controles de formulário devem estar dentro da tag form-->
+            <section>
+                <label for="txtNome">Nome:</label>
+                <br>
+                <input placeholder="Nome" type="text" name="txtNome" id="txtNome" required>
+            </section>
+            <section>
+                <label>
+                    Sobrenome:
+                    <br>
+                    <input placeholder="Sobrenome" type="text" name="txtSobrenome" id="txtSobrenome" required>
+                </label>
+            </section>
+            <section>
+                <label for="txtEmail">Email:</label>
+                <br>
+                <input placeholder="email@email.com" type="email" name="txtEmail" id="txtEmail" required>
+            </section>
+            <section>
+                <label for="txtTelefone">Telefone:</label>
+                <br>
+                <input placeholder="Telefone" type="tel" name="txtTelefone" id="txtTelefone" required>
+            </section>
+            <section>
+                <label>
+                    CPF:
+                    <br>
+                    <input placeholder="012.345.678-90" type="text" name="txtCPF" id="txtCPF" maxlength="14" required>
+                </label>
+            </section>
+            <section>
+                <label>
+                    Dependentes:
+                    <br>
+                    <input placeholder="0" type="number" name="txtDependentes" id="txtDependentes" min="0" max="10" required>
+                </label>
+            </section>
+            <section>
+                <label>
+                    Mensagem:
+                    <br>
+                    <textarea placeholder="Digite sua mensagem" type="textarea" name="textMensagem" id="textMensagem" cols="30" rows="15"></textarea>
+                </label>
+            </section>
+            <section>
+                <label for="txtSenha">Senha:</label>
+                <br>
+                <input type="password" name="txtSenha" id="txtSenha" required>
+            </section>
+            
+            <button type="submit">
+                Enviar
+            </button>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+    margin: 5px;
+}
+
+input {
+    margin: 5px;
+}
+
+button {
+    margin: 10px;
+}
