@@ -5,32 +5,33 @@ public class Main {
 
         var scan = new Scanner(System.in);
 
-        var item1 = new ItemCardapio();
-        item1.setNome("Burgão");
-        item1.setPreco(35.50);
-        item1.setDescricao("Burgão suculento com queijo");
-
         var bebida1 = new Bebida();
         bebida1.setNome("Coca Cola");
         bebida1.setDescricao("Coquinha gelada");
         bebida1.setPreco(6.5);
         bebida1.setGelado(true);
 
-        var pratoPrincipal = new PratoPrincipal();
-        pratoPrincipal.setNome("Batata frita");
-        pratoPrincipal.setDescricao("Batata crocante e salgadinha");
-        pratoPrincipal.setPreco(20);
-        pratoPrincipal.setTempoPreparo(300);
+        var pratoPrincipal1 = new PratoPrincipal();
+        pratoPrincipal1.setNome("Batata frita");
+        pratoPrincipal1.setDescricao("Batata crocante e salgadinha");
+        pratoPrincipal1.setPreco(20);
+        pratoPrincipal1.setTempoPreparo(300);
+
+        var pratoPrincipal2 = new PratoPrincipal();
+        pratoPrincipal2.setNome("Burgão");
+        pratoPrincipal2.setPreco(35.50);
+        pratoPrincipal2.setDescricao("Burgão suculento com queijo");
+        pratoPrincipal2.setTempoPreparo(720);
 
         var pedido = new Pedido();
         pedido.setNumeroPedido("1234");
         pedido.setStatus("Em preparação");
 
-        pedido.adicionarItem(item1);
+        pedido.adicionarItem(pratoPrincipal2);
         pedido.adicionarItem(bebida1);
-        pedido.adicionarItem(pratoPrincipal);
+        pedido.adicionarItem(pratoPrincipal1);
 
-        pratoPrincipal.exibirInfos();
+        pratoPrincipal1.exibirInfos();
         bebida1.exibirInfos();
 
         pedido.exibirDetalhes();

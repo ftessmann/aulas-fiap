@@ -13,7 +13,6 @@ public class Bebida extends ItemCardapio {
 
     @Override
     public void exibirInfos() {
-
         System.out.println(
                 "Detalhes do item: \n"
                         + "Nome do item: \n"

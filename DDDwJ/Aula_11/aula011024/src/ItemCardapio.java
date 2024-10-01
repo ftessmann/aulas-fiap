@@ -1,10 +1,9 @@
 import java.util.Objects;
 
-public class ItemCardapio {
+abstract class ItemCardapio {
     private String nome;
     private double preco;
     private String descricao;
-
 
     public void exibirInfos() {
         System.out.println(
