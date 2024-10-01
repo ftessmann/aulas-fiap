@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F15455BA-347F-CF95-B2E8-9778E99E5B2D" name="Localizacao">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:27:28 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="localizacaoId" id="C30FE090-C80D-D2C8-0D76-108FEC6B82D4">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:28:32 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="latitude" id="843FC7E2-CDF5-97C6-1D43-262767321F58">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:28:37 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="longitude" id="AF8D06CF-E180-9614-EE8C-DD4619256E25">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:28:42 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DCA178D2-32A2-23AA-A3B9-0ECBA8F8E48E" name="Localizacao PK">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:28:36 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C30FE090-C80D-D2C8-0D76-108FEC6B82D4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

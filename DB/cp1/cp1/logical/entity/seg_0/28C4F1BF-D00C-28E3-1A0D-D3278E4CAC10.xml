@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="28C4F1BF-D00C-28E3-1A0D-D3278E4CAC10" name="Manutencao">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:50:00 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="manutencaoId" id="C2C2FFCB-4D64-7FB9-54E5-56B6358E6F3D">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:50:05 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoManutencao" id="A8C78930-1733-5593-0D1A-660A90CBBA23">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:57:45 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="241E757B-41B6-70BE-D488-2DF80A3BD5B1">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:57:52 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="statusId" id="A7EA347D-C6A6-94AD-C25E-C0D726AF2380">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 12:22:38 UTC</createdTime>
+<generatorID>A7B0BCC1-ED84-E550-37AB-AEA2DAD1A337</generatorID>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<referedAttribute>EA382C53-493D-5E63-F06C-26574F43E256</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0E267160-34A6-EA91-EE0A-8784B50865E6" name="Manutencao PK">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:57:44 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C2C2FFCB-4D64-7FB9-54E5-56B6358E6F3D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

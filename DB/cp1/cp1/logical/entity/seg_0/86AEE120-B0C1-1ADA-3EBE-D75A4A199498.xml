@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="86AEE120-B0C1-1ADA-3EBE-D75A4A199498" name="Passagem">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:38:50 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="passagemId" id="F40038D8-8FA6-201A-F4CB-B3F2395411AC">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:38:55 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor" id="CD0CDD19-0062-B5C5-4372-66CE0B127A1F">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:39:01 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="utilizacao" id="2DFD3BA2-30AB-E2D2-9579-DA85E4F63375">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:44:54 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passageiroId" id="823C2A15-ED79-2128-045B-75BC954ABE61">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 12:10:00 UTC</createdTime>
+<generatorID>0A2FE593-3F81-7EB1-DD75-F78385684A06</generatorID>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<referedAttribute>4530DBA2-8DE8-CF1A-4454-49C9A3ED8582</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9B945DA7-AD96-6D22-7386-54BEE6485A8F" name="Passagem PK">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:38:59 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F40038D8-8FA6-201A-F4CB-B3F2395411AC</attributeRef>
+<attributeRef>823C2A15-ED79-2128-045B-75BC954ABE61</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

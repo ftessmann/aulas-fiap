@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="919BC01C-4F59-2F4A-02F3-1FFB1E13A351" name="Linha">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:24:46 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="linhaId" id="EB68AE50-F658-DD2D-FEBE-530984101C96">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:24:54 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="4DFE354B-DC03-B595-4092-ACD2FD9421BC">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:25:06 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeroLinha" id="C7B0FF3C-8D01-2EAC-5D1C-1BB2549F234B">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:25:13 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horarioId" id="B2E31BAC-7052-CAB6-137B-ADB177E25635">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 12:15:46 UTC</createdTime>
+<generatorID>80C17675-ACCB-230E-1D0F-29A50D6AEF88</generatorID>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<referedAttribute>CF3F3344-F32A-0540-1C95-2E0A6CF0F3D2</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="statusId" id="61CF1609-F0EE-CA0D-8992-FB60D285DC2A">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 12:20:54 UTC</createdTime>
+<generatorID>27593E42-C5FC-561F-ECC0-39494D4BEA79</generatorID>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<referedAttribute>EA382C53-493D-5E63-F06C-26574F43E256</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="11EC7D99-CB37-552D-D3A8-D820C4A153BA" name="Linha PK">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:25:04 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EB68AE50-F658-DD2D-FEBE-530984101C96</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

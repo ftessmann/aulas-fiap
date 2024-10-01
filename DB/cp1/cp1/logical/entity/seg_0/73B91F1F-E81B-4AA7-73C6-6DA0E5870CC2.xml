@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="73B91F1F-E81B-4AA7-73C6-6DA0E5870CC2" name="RegistroPassagem">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:39:43 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="registroPassagemId" id="FD615690-4F8E-A1FC-35A8-2E5F21E81218">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:39:51 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="formapagamento" id="C95A48AB-3C34-C88F-CE5C-82FAF0DEA082">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:39:59 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passagemId" id="784A871C-7A41-F1E6-2E42-26E095727FC9">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 12:09:49 UTC</createdTime>
+<generatorID>0E0753BB-97B1-EDE5-FB48-347F6A0C3C8A</generatorID>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<referedAttribute>F40038D8-8FA6-201A-F4CB-B3F2395411AC</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passageiroId" id="C8073C45-525B-07C3-7337-D4CF01702DCD">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 12:10:00 UTC</createdTime>
+<generatorID>0E0753BB-97B1-EDE5-FB48-347F6A0C3C8A</generatorID>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<referedAttribute>823C2A15-ED79-2128-045B-75BC954ABE61</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1D43C9A1-176E-BBB2-4879-066881DFE380" name="RegistroPassagem PK">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:39:56 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FD615690-4F8E-A1FC-35A8-2E5F21E81218</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

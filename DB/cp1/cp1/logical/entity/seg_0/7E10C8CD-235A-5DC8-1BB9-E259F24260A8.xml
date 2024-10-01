@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7E10C8CD-235A-5DC8-1BB9-E259F24260A8" name="Estacao">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:47:07 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="estacaoId" id="43A7D525-241D-033F-4509-5DFFC6536BAF">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:47:12 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="F17321BD-A12D-0369-97F2-19C9C38E4A85">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:47:22 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeroPlataforma" id="CDB9D144-AA76-11B7-1590-D951EBA2B0E9">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:47:27 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="capMaxima" id="00D29798-35F3-DB21-F58F-CFA2281F5F07">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:47:33 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="linhaId" id="5E95F64E-4CCC-8005-FAB9-14A4CC0B64CD">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 12:03:47 UTC</createdTime>
+<generatorID>122972BD-F060-4D2E-5BEE-BA37D9BF4F96</generatorID>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<referedAttribute>EB68AE50-F658-DD2D-FEBE-530984101C96</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ocupacaoId" id="46C2E220-531A-2E33-6AA8-EAE527EB848C">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 12:16:56 UTC</createdTime>
+<generatorID>7E4BE01E-4350-88AC-D32E-10F7F097DB6F</generatorID>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<referedAttribute>0CADC433-3FE8-9B93-4948-478DADFACCA6</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monitoramentoId" id="9D3BF5E8-C0BA-8F88-00B9-D5A917BEA491">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 12:19:12 UTC</createdTime>
+<generatorID>7E4BE01E-4350-88AC-D32E-10F7F097DB6F</generatorID>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<referedAttribute>7744F746-F3C0-C222-D2AF-B4049BBA4BF2</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="conexaoid" id="4BDCA192-6265-5575-D054-BD8FDACCF4A1">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 12:37:41 UTC</createdTime>
+<generatorID>FDD63B55-4AF8-1AF3-4483-9F94491CAC07</generatorID>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<referedAttribute>131B4776-FC0E-DB42-DAE7-6F666320F63D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

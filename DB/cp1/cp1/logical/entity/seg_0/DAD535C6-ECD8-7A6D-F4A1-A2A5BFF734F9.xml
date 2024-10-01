@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DAD535C6-ECD8-7A6D-F4A1-A2A5BFF734F9" name="Trem">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:16:55 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tremId" id="FC13596B-963E-B515-3691-6D5873F60273">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:17:00 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="transporteId" id="6D69A978-4322-6F7E-23C4-84EC18EC763A">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:57:09 UTC</createdTime>
+<generatorID>21A5C994-08EE-130E-82AC-0557E5347CA3</generatorID>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<referedAttribute>2237E6B4-CE5D-7139-68DE-59EE51531486</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="53B0C8CB-744B-9D9F-81B6-A77A2C0FB2A4" name="Trem PK">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:17:03 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FC13596B-963E-B515-3691-6D5873F60273</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

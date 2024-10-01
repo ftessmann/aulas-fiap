@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3FF5659C-9644-36EA-7E4A-CCC50791EFF4" name="Infraestrutura">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:51:50 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="infraId" id="D34C8839-0CB6-56A7-37E6-04754362AA63">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:51:57 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="530979E5-70A2-27CE-F78E-16428E016150">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:52:25 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estadoConservacao" id="6794D172-2FB0-FA18-18C5-571A40E450B3">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:52:53 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataUltimaManutencao" id="04DBCCDE-B41B-2E17-8BCA-08A0CCA27609">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:53:29 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horarioId" id="AE7CF0EE-7A84-F2C6-B911-43D99B6AF9DB">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 12:26:05 UTC</createdTime>
+<generatorID>22D8B8B8-8A9D-266F-C1A2-2609B98B2ED5</generatorID>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<referedAttribute>CF3F3344-F32A-0540-1C95-2E0A6CF0F3D2</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="linhaId" id="8EA6B9F0-13F9-5256-5DFF-5C8ACF067DD7">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 12:35:00 UTC</createdTime>
+<generatorID>6C0E8CEF-A8E3-E7E7-4591-24EA5ABF0B29</generatorID>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<referedAttribute>EB68AE50-F658-DD2D-FEBE-530984101C96</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="localizacaoId" id="B396EEF3-0097-4916-F95E-213CE9C46A45">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 12:35:08 UTC</createdTime>
+<generatorID>8F93EE37-A57A-B7A3-80FE-90E58DA0447C</generatorID>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<referedAttribute>C30FE090-C80D-D2C8-0D76-108FEC6B82D4</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monitoramentoId" id="D9B3171D-FF58-8AE1-5DA4-AE32723AA8F3">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 12:39:28 UTC</createdTime>
+<generatorID>0BACF305-33E5-957E-E8D8-FDDC7C8664A5</generatorID>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<referedAttribute>3D0F4FEF-A031-96B8-BAF5-393BA59BB37A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1C99B4C1-0DDC-32D6-AEA0-1136BD04915C" name="Infraestrutura PK">
+<createdBy>fernando</createdBy>
+<createdTime>2024-09-30 11:52:13 UTC</createdTime>
+<ownerDesignName>cp1</ownerDesignName>
+<engineerTo>
+<item key="0668820C-035D-A313-CC25-D708A4A021F5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D34C8839-0CB6-56A7-37E6-04754362AA63</attributeRef>
+<attributeRef>8EA6B9F0-13F9-5256-5DFF-5C8ACF067DD7</attributeRef>
+<attributeRef>D9B3171D-FF58-8AE1-5DA4-AE32723AA8F3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
