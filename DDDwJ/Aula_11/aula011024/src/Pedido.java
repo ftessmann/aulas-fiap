@@ -28,9 +28,7 @@ public class Pedido {
 
     public void calcularValor() {
         valorTotal = 0;
-        for (var itemCardapio:itemPedido) {
-            this.valorTotal += itemCardapio.getPreco();
-        }
+        itemPedido.forEach(itemCardapio -> this.valorTotal += itemCardapio.getPreco());
     }
 
     public void alterarStatus(String status) {

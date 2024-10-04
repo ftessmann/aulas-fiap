@@ -1,5 +1,4 @@
 import models.EpisodioPodcast;
-import models.Midia;
 import models.Musica;
 import models.Playlist;
 
