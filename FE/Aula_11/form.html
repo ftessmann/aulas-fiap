@@ -7,7 +7,7 @@
         <title>Formulários</title>
     </head>
     <body>
-        <form name="frmCadastro" method="post"> <!--todos os controles de formulário devem estar dentro da tag form-->
+        <form name="frmCadastro" method="post" enctype="multipart/form-data"> <!--todos os controles de formulário devem estar dentro da tag form-->
             <section>
                 <label for="txtNome">Nome:</label>
                 <br>
@@ -21,7 +21,9 @@
                 </label>
             </section>
             <section>
-                <label for="txtEmail">Email:</label>
+                <label for="txtEmail">
+                    Email:
+                </label>
                 <br>
                 <input placeholder="email@email.com" type="email" name="txtEmail" id="txtEmail" required>
             </section>
@@ -48,15 +50,118 @@
                 <label>
                     Mensagem:
                     <br>
-                    <textarea placeholder="Digite sua mensagem" type="textarea" name="textMensagem" id="textMensagem" cols="30" rows="15"></textarea>
+                    <textarea placeholder="Digite sua mensagem" type="textarea" name="textMensagem" id="textMensagem" cols="30" rows="15" maxlength="1000"></textarea>
                 </label>
             </section>
             <section>
                 <label for="txtSenha">Senha:</label>
                 <br>
-                <input type="password" name="txtSenha" id="txtSenha" required>
+                <input type="password" name="txtSenha" id="txtSenha" placeholder="Digite sua senha" required>
             </section>
-            
+            <section>
+                <label>
+                    Volume:
+                    <br>
+                    <input type="range" name="volume" id="volume" min="0" max="100" value="25">
+                </label>
+            </section>
+            <section>
+                <label>
+                    Sexo:
+                </label>
+                <br>
+                <input type="radio" name="sexo" id="sexoM" value="M">
+                <label for="sexoM">Masculino</label>
+                <br>
+                <input type="radio" name="sexo" id="sexoF" value="F">
+                <label for="sexoF">Feminino</label>
+                <br>
+                <input type="radio" name="sexo" id="sexoO" value="O">
+                <label for="sexoO">Outros</label>
+            </section>
+            <section>
+                <label>
+                    Interesses:
+                </label>
+                <br>
+                <input type="checkbox" name="chkTI" id="chkTI" value="TI">
+                <label for="chkTI">TI</label><br>
+                <input type="checkbox" name="chkFut" id="chkFut" value="Futebol">
+                <label for="chkFut">Futebol</label><br>
+                <input type="checkbox" name="chkCulinaria" id="chkCulinaria" value="Culinaria">
+                <label for="chkCulinaria">Culinaria</label><br>
+                <input type="checkbox" name="chkBasquete" id="chkBasquete" value="Basquete">
+                <label for="chkBasquete">Basquete</label><br>
+            </section>
+            <section>
+                <label>
+                    Cor
+                </label>
+                <br>
+                <input type="color">
+            </section>
+            <section>
+                <label>
+                    Estado:
+                </label>
+                <br>
+                <select name="sltEstado" id="sltEstado">
+                    <optgroup label="Região 1">
+                        <option value="SP">SP</option>
+                        <option value="RS">RS</option>
+                        <option value="RJ">RJ</option>
+                        <option value="AC">AC</option>
+                        <option value="BA">BA</option>
+                    </optgroup>
+                    <optgroup label="Região 2">
+                        <option value="MT">MT</option>
+                        <option value="MS">MS</option>
+                        <option value="SE">SE</option>
+                        <option value="MA">MA</option>
+                        <option value="RN">RN</option>
+                    </optgroup>
+                    <optgroup label="Região 3">
+                        <option value="AM">AM</option>
+                        <option value="PA">PA</option>
+                        <option value="PE">PE</option>
+                        <option value="GO">GO</option>
+                        <option value="SC">SC</option>                        
+                    </optgroup>
+                    <option value="" selected>Selecione</option>
+                </select>
+            </section>
+            <section>
+                <label>
+                    Navegadores:
+                </label>
+                <br>
+                <input list="listNavegadores">
+                <datalist id="listNavegadores">
+                    <option value="Firefox">Firefox</option>
+                    <option value="Edge">Edge</option>
+                    <option value="Brave">Brave</option>
+                    <option value="Chrome">Chrome</option>
+                    <option value="Opera">Opera</option>
+                    <option value="Tor">Tor</option>
+                    <option value="Konqueror">Konqueror</option>
+                </datalist>
+            </section>
+            <section>
+                <label>
+                    Data de Nascimento:
+                </label>
+                <br>
+                <input type="date" name="dataNascimento" id="dataNascimento" min="1999-07-25" max="2024-10-03">
+            </section>
+            <section>
+                <label>
+                    Envie seu arquivo:
+                </label>
+                <br>
+                <input type="file" name="arquivo" id="arquivo" accept=".pdf">
+            </section>
+            <input type="hidden" name="txtId" id="txtId" value="3846867">
+            <br>
             <button type="submit">
                 Enviar
             </button>
