@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7D10B94F-D3EB-5A8E-6638-596D0A5F99E1" name="T_FIAP_TURMA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:04:25 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="2D994BA4-12F2-A340-D6D4-E42953A003F0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_turma" id="CF96FD6F-BB8A-BDCE-384B-62774C5236C6">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:15:46 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="2D994BA4-12F2-A340-D6D4-E42953A003F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_turma" id="F69D68CA-2726-7B68-07F9-862E8AEA8A21">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:15:53 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="2D994BA4-12F2-A340-D6D4-E42953A003F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="periodo" id="9E69ED99-9650-406A-28D4-8126B6DB00BE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:16:04 UTC</createdTime>
+<commentInRDBMS>Periodo recebera os valores de &quot;Manha&quot;, &quot;Tarde&quot;, &quot;Noite&quot;</commentInRDBMS>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="2D994BA4-12F2-A340-D6D4-E42953A003F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modalidade" id="50EA763B-AA73-B389-7DCF-8619AD878280">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:16:07 UTC</createdTime>
+<commentInRDBMS>Periodo recebera os valores de &quot;Presencial&quot;, &quot;Hibrido&quot;, &quot;Remoto&quot;</commentInRDBMS>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="2D994BA4-12F2-A340-D6D4-E42953A003F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_curso" id="6D3B3333-A4A3-6EAF-206E-F49978EB1DBF">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:29:06 UTC</createdTime>
+<generatorID>D21F8DE2-FC51-E458-CC99-2191207AF3AF</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="2D994BA4-12F2-A340-D6D4-E42953A003F0" value="true"/>
+</engineerTo>
+<referedAttribute>C19CCEA5-27C0-FB5B-E819-760DCEA39FF6</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F56F89AC-D1B8-1362-4D9A-F25A521F3670" name="TURMA PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:15:52 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="2D994BA4-12F2-A340-D6D4-E42953A003F0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CF96FD6F-BB8A-BDCE-384B-62774C5236C6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

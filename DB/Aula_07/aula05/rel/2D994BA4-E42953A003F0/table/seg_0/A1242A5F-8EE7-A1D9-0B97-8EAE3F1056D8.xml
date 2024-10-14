@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A1242A5F-8EE7-A1D9-0B97-8EAE3F1056D8" name="T_FIAP_PROFESSOR">
+<createdBy>fernando</createdBy>
+<createdTime>2024-10-14 11:56:57 UTC</createdTime>
+<generatorID>34F903B8-4A25-ABD8-C42B-C881B010994A</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_professor" id="3042AE21-408F-383B-0DC0-43E68FAF9620">
+<createdBy>fernando</createdBy>
+<createdTime>2024-10-14 11:56:57 UTC</createdTime>
+<generatorID>2A9D10A8-A1D0-75F8-4289-47A286175E83</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_professor" id="0578FC8D-CD49-A992-B0C8-CBD10F5617A8">
+<createdBy>fernando</createdBy>
+<createdTime>2024-10-14 11:56:57 UTC</createdTime>
+<generatorID>E14F40F1-BCB1-340B-0749-F8C516FF6BC4</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="11CB20FF-53D8-3BB1-CE14-2A7D2F6E7AFE">
+<createdBy>fernando</createdBy>
+<createdTime>2024-10-14 11:56:57 UTC</createdTime>
+<generatorID>6F4663F7-7A81-9CB5-087F-FA0BA07B0AE2</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gr_professor" id="AB5DA0F1-381B-5B86-46E1-91D9E5005081">
+<createdBy>fernando</createdBy>
+<createdTime>2024-10-14 11:56:57 UTC</createdTime>
+<generatorID>7F863F1A-30DE-8C05-1185-22721CB9E047</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf_professor" id="C5A40843-5492-27D3-41A4-6F5536D0E83A">
+<createdBy>fernando</createdBy>
+<createdTime>2024-10-14 11:56:57 UTC</createdTime>
+<generatorID>B80DF516-FFFA-4CD2-2204-FACC0270AF16</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_FIAP_AUTENTICA_id_autentica" id="AC36985F-6C8C-B6C1-0A0A-1D97A770B562">
+<createdBy>fernando</createdBy>
+<createdTime>2024-10-14 11:56:57 UTC</createdTime>
+<generatorID>8D732D1E-7E64-80CF-CF15-B9C1EA6127DA</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="650989C1-2501-345F-9230-868EB4FEB538" referredColumn="9721A911-BBC6-E885-E1A6-44B9D7F8E469"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CFFE3B6B-4069-0D7D-4033-88D136DE8783" name="T_FIAP_PROFESSOR_PK">
+<createdBy>fernando</createdBy>
+<createdTime>2024-10-14 11:56:57 UTC</createdTime>
+<generatorID>D1FA05DA-ED25-8756-42D3-41A4747683D1</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3042AE21-408F-383B-0DC0-43E68FAF9620"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C78FFEA3-B131-7810-D21D-F0EA31C0D089" name="T_FIAP_PROFESSOR__IDX">
+<createdBy>fernando</createdBy>
+<createdTime>2024-10-14 11:56:57 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>24962BDB-FD44-CAF3-C7B0-05939B0EA85E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="AC36985F-6C8C-B6C1-0A0A-1D97A770B562"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43C8588A-B141-FE6E-173A-276BE5955C39" name="T_FIAP_PROFESSOR_T_FIAP_AUTENTICA_FK">
+<createdBy>fernando</createdBy>
+<createdTime>2024-10-14 11:56:57 UTC</createdTime>
+<generatorID>24962BDB-FD44-CAF3-C7B0-05939B0EA85E</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC36985F-6C8C-B6C1-0A0A-1D97A770B562"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

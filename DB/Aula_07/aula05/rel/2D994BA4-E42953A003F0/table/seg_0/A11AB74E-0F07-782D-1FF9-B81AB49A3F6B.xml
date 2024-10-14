@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A11AB74E-0F07-782D-1FF9-B81AB49A3F6B" name="T_FIAP_DISCIPLINA">
+<createdBy>fernando</createdBy>
+<createdTime>2024-10-14 11:56:57 UTC</createdTime>
+<generatorID>832E7AB6-3637-AA97-B121-3F04B357FFA5</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_disciplina" id="DE3EFC80-7B92-4620-B203-A2C4E3593972">
+<createdBy>fernando</createdBy>
+<createdTime>2024-10-14 11:56:57 UTC</createdTime>
+<generatorID>CA5DD97C-C951-A4D8-CEDF-D82D0727F321</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_disciplina" id="84883E41-62FF-22DF-079E-79AEB61ACE43">
+<createdBy>fernando</createdBy>
+<createdTime>2024-10-14 11:56:57 UTC</createdTime>
+<generatorID>4217520B-4DB3-896D-ABB0-47EF7D4231A0</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ch_disciplina" id="C721CD37-0671-5285-4E6E-D24F3156F5FD">
+<createdBy>fernando</createdBy>
+<createdTime>2024-10-14 11:56:57 UTC</createdTime>
+<generatorID>8BF65315-F8AC-309B-8FE4-386B2D696FC4</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="plano_ensino" id="78083B5F-116A-FE67-B689-598DDBC80164">
+<createdBy>fernando</createdBy>
+<createdTime>2024-10-14 11:56:57 UTC</createdTime>
+<generatorID>2C74FE18-F1BB-FB68-F77E-1D557800B2F1</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_FIAP_CURSO_id_curso" id="48A89EAD-A6B0-D577-6802-88B95320C20A">
+<createdBy>fernando</createdBy>
+<createdTime>2024-10-14 11:56:57 UTC</createdTime>
+<generatorID>CD05597F-3ED3-DF78-352F-2C5605E21614</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9AA8BEB7-0EB3-B079-7B7D-4244598B96DA" referredColumn="96821642-F6E8-00F5-006F-D4734863EADF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="331A3EBF-9203-01AB-09D8-A0E62917CD97" name="T_FIAP_DISCIPLINA_PK">
+<createdBy>fernando</createdBy>
+<createdTime>2024-10-14 11:56:57 UTC</createdTime>
+<generatorID>CFFF0314-24C7-B2D8-977B-E62981985E77</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE3EFC80-7B92-4620-B203-A2C4E3593972"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05D76365-1436-4157-2804-79A47CEBFC41" name="T_FIAP_DISCIPLINA_T_FIAP_CURSO_FK">
+<createdBy>fernando</createdBy>
+<createdTime>2024-10-14 11:56:57 UTC</createdTime>
+<generatorID>9F94C516-32FB-3CD9-9F6F-04526681639A</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48A89EAD-A6B0-D577-6802-88B95320C20A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

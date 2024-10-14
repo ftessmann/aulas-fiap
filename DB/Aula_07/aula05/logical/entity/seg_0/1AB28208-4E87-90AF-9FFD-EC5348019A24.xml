@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1AB28208-4E87-90AF-9FFD-EC5348019A24" name="T_FIAP_CURSO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:05:29 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="2D994BA4-12F2-A340-D6D4-E42953A003F0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_curso" id="C19CCEA5-27C0-FB5B-E819-760DCEA39FF6">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:16:26 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="2D994BA4-12F2-A340-D6D4-E42953A003F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_curso" id="CB5BA7FC-EF4E-C0D0-18E9-C5D2A39EAE57">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:16:29 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="2D994BA4-12F2-A340-D6D4-E42953A003F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ch_curso" id="40B9EEF9-1984-0060-ED1D-8BBADCB6DC58">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:16:33 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="2D994BA4-12F2-A340-D6D4-E42953A003F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FAC3A667-FF3E-230F-EA03-184A6536B66E" name="CURSO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:16:48 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="2D994BA4-12F2-A340-D6D4-E42953A003F0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C19CCEA5-27C0-FB5B-E819-760DCEA39FF6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

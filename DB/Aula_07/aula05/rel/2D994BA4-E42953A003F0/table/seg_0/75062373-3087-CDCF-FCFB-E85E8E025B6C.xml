@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75062373-3087-CDCF-FCFB-E85E8E025B6C" name="T_FIAP_AUTENTICA">
+<createdBy>fernando</createdBy>
+<createdTime>2024-10-14 11:56:57 UTC</createdTime>
+<generatorID>EF00BC9C-4B24-A64D-AB9D-53F6A629EF35</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_autentica" id="9721A911-BBC6-E885-E1A6-44B9D7F8E469">
+<createdBy>fernando</createdBy>
+<createdTime>2024-10-14 11:56:57 UTC</createdTime>
+<generatorID>6A71CEF5-AE41-A7FC-61D7-FD8287D05836</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="login" id="D7000BC9-ACFF-1B64-91ED-B0CDBBEAC494">
+<createdBy>fernando</createdBy>
+<createdTime>2024-10-14 11:56:57 UTC</createdTime>
+<generatorID>193884FD-7366-24E2-D6BE-BCDE6ECC5CD6</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha" id="BBADF76F-C5E3-4C6E-FCAA-FEAECF905179">
+<createdBy>fernando</createdBy>
+<createdTime>2024-10-14 11:56:57 UTC</createdTime>
+<generatorID>66C9E459-C750-5554-F772-692B331C51A1</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="02978227-42AC-AFF5-1BA1-F12883093A5D" name="T_FIAP_AUTENTICA_PK">
+<createdBy>fernando</createdBy>
+<createdTime>2024-10-14 11:56:57 UTC</createdTime>
+<generatorID>EA9A08B2-A5BA-0A08-C656-D3A127D211D5</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9721A911-BBC6-E885-E1A6-44B9D7F8E469"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

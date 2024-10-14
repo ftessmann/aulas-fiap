@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E18BBF70-0311-E2F1-01F2-1BD793B567F0" name="T_FIAP_CURSO">
+<createdBy>fernando</createdBy>
+<createdTime>2024-10-14 11:56:57 UTC</createdTime>
+<generatorID>1AB28208-4E87-90AF-9FFD-EC5348019A24</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_curso" id="96821642-F6E8-00F5-006F-D4734863EADF">
+<createdBy>fernando</createdBy>
+<createdTime>2024-10-14 11:56:57 UTC</createdTime>
+<generatorID>C19CCEA5-27C0-FB5B-E819-760DCEA39FF6</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_curso" id="379B4613-01E7-0C69-FB4E-9ED71B06B5EB">
+<createdBy>fernando</createdBy>
+<createdTime>2024-10-14 11:56:57 UTC</createdTime>
+<generatorID>CB5BA7FC-EF4E-C0D0-18E9-C5D2A39EAE57</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ch_curso" id="96BEEB81-3965-A1D5-C017-41F4652DB527">
+<createdBy>fernando</createdBy>
+<createdTime>2024-10-14 11:56:57 UTC</createdTime>
+<generatorID>40B9EEF9-1984-0060-ED1D-8BBADCB6DC58</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C32CE246-4868-4E7E-08C1-AA39775FAC27" name="T_FIAP_CURSO_PK">
+<createdBy>fernando</createdBy>
+<createdTime>2024-10-14 11:56:57 UTC</createdTime>
+<generatorID>FAC3A667-FF3E-230F-EA03-184A6536B66E</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96821642-F6E8-00F5-006F-D4734863EADF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
