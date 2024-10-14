@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            //let frutas = new array;
+
+            frutas = ["Maçã", "Banana", "Uva", "Melancia", "Pera"];
+            document.write(frutas.length);
+            document.write("<br>" + frutas[3]);
+
+            frutas.push("Abacaxi") // adiciona item na ultima posição do array
+            document.write("<br>")
+            document.write(frutas)
+            document.write("<br>")
+            frutas.pop() // remove item da ultima posição do array
+            document.write(frutas)
+            frutas.pop("Uva")
+            document.write("<br>")
+            document.write(frutas)
+           // frutas.splice(1, 1) // remove itens a partir da posição (indice, quantidade)
+            document.write("<br>")
+            document.write(frutas)
+
+            suco = frutas.slice(2) // cria um novo array com o conteudo a partir do indice indicado
+            document.write("<br>")
+            document.write(suco)
+            document.write("<br>")
+            carros = [" Volks", " Chevy", " Ford", " Dodge", " BMW", " Mercedes", " Alfa Romeo", " Toyota"]
+            document.write(carros.sort()) // sort ordena o array em ordem alfabética
+            document.write("<br>")
+            document.write(carros.reverse()) // orderna em array em ordem alfabética ao contrario
+            document.write("<br>")
+
+        </script>
+    </body>
+</html>
