@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    width: 1440px;
+    height: 2000px;
+}
+
+.content {
+    padding: 20px;
+}
+
+header {
+    width: 1440px;
+    height: 70px;
+    background-color: #75c6ff;
+    font-size: x-large;
+    padding-left: 80px;
+}
+
+main {
+    width: 1440px;
+    height: 2000px;
+}
+
+.formBox {
+    margin: 60px;
+}
+
+.formHeader {
+    width: 1000px;
+    height: 60px;
+    border-left: 5px solid #75c6ff;
+    border-bottom: 2px solid #75c6ff;
+}
+
+.formHeader h2 {
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.box1 {
+    display: flex;
+}
+
+.organizacao {
+    display: flex;
+}
+
+.ladoDireito {
+    margin-left: 15px;
+}
+
+label {
+    margin-left: 5px;
+}
+
+#txtNome {
+    width: 920px;
+    height: 24px;
+    margin-bottom: 20px;
+}
+
+#txtRG {
+    width: 450px;
+    height: 24px;
+    margin-bottom: 20px;
+}
+
+#txtCPF {
+    width: 450px;
+    height: 24px;
+    margin-bottom: 20px;
+}
+
+#dataNascimento {
+    width: 450px;
+    height: 24px;
+    margin-bottom: 20px;
+}
+
+#txtSenha {
+    width: 450px;
+    height: 24px;
+    margin-bottom: 20px;
+}
+
+#txtConfirmaSenha {
+    width: 450px;
+    height: 24px;
+    margin-bottom: 20px;
+}
+
+.sexo {
+    margin: 10px 0px 24px 20px;
+}
+
+
+legend {
+    margin-left: 30px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.identificacao {
+    width: 1000px;
+    height: 320px;
+    border: 2px solid #75c6ff;
+    margin: 20px;
+}
+
+.fotografia {
+    width: 500px;
+    height: 280px;
+    border: 2px solid #75c6ff;
+    margin: 20px 0 20px 10px;  
+}
+
+img {
+    width: 180px;
+    height: 160px;
+}
+
+#botaoEnviar {
+    width: 120px;
+    height: 30px;
+    margin-left: 20px;
+    background-color: #75c6ff;
+    border-radius: 5px;
+}
+
+#botaoEnviar:hover {
+    cursor: pointer;
+}
+
+.box2 {
+    width: 1280px;
+    height: 200px;
+    margin: 20px;
+    box-sizing: border-box;
+    border: 2px solid #75c6ff
+}
+
+.flexEndereco {
+    display: flex;
+    margin: 10px;
+}
+
+#rua {
+    margin: 10px;
+}
+
+#numero {
+    margin: 10px;
+}
+
+#complemento {
+    margin: 10px;
+}
+
+#txtRua {
+    width: 630px;
+    height: 24px;
+}
+
+#txtNumero {
+    width: 280px;
+    height: 24px;
+}
+
+#txtComplemento {
+    width: 280px;
+    height: 24px;
+}
+
+#txtBairro {
+    width: 397px;
+    height: 24px;
+}
+
+#txtCidade {
+    width: 397px;
+    height: 24px;
+}
+
+#sltEstado {
+    width: 397px;
+    height: 24px;
+}
+
+#bairro {
+    margin: 10px;
+}
+
+#cidade {
+    margin: 10px;
+}
+
+#estado {
+    margin: 10px;
+}
+
+.diversos {
+    width: 1280px;
+    height: 250px;
+    margin: 20px;
+    box-sizing: border-box;
+    border: 2px solid #75c6ff;
+    display: flex;
+}
+
+.interesse {
+    width: 420px;
+    margin: 15px 0 0 30px;
+    height: 150px;
+    border: 2px solid #75c6ff;
+}
+
+.corPreferencia {
+    width: 420px;
+    height: 150px;
+    margin: 15px 0 0 30px;
+    border: 2px solid #75c6ff;
+}
+
+footer {
+    width: 1440px;
+    height: 120px;
+    background-color: #75c6ff;
+    font-size: x-large;
+    padding-left: 80px;
+    text-align: center;
+}

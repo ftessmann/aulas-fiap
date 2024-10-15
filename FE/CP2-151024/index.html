@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Checkpoint 2</title>
+    </head>
+    <body>
+            <div class="wrapper">
+                <header>
+                    <div class="content">
+                        Checkpoint 2    
+                    </div>
+                </header>
+                <main>
+                    
+                    <form name="frmCadastro" method="post" enctype="multipart/form-data">
+                        
+                        <div class="formBox">
+                            <div class="formHeader">
+                                <h2>Formulário de cadastro</h2>
+                            </div>
+                            <div class="box1">
+                                <fieldset class="identificacao">
+                                    <legend>Identificação</legend>
+                                    <div class="content">
+
+                                        <label for="txtNome">Nome Completo: *</label>
+                                        <br>
+                                        <input type="text" name="txtNome" id="txtNome" required>
+                                        <div class="organizacao">
+                                        <div class="ladoEsquerdo">
+                                           <label for="txtRG">RG: *</label>
+                                            <br>
+                                            <input type="text" name="txtRG" id="txtRG" required> 
+                                            <br>
+                                            <label for="dataNascimento">Data de Nascimento: *</label>
+                                            <br>
+                                            <input type="date" name="dataNascimento" id="dataNascimento" min="1920-10-15" max ="2024-10-15" required>
+                                            <br>
+                                            <label for="txtSenha">Senha: *</label>
+                                            <br>
+                                            <input type="password" name="txtSenha" id="txtSenha" required>
+
+                                        </div>
+                                        <div class="ladoDireito">
+                                            <label for="txtCPF">CPF: *</label>
+                                            <br>
+                                            <input type="text" name="txtCPF" id="txtCPF" required>
+                                            <br>
+                                            <label>Sexo: *</label>
+                                            <br>
+                                            <input type="radio" name="sexo" id="sexoM" class="sexo" required value="M">
+                                            <label for="sexoM">Masculino</label>
+                                            
+                                            <input type="radio" name="sexo" id="sexoF" class="sexo" required value="F">
+                                            <label for="sex0F">Feminino</label>
+                                            
+                                            <input type="radio" name="sexo" id="sexoO" class="sexo" required value="O">
+                                            <label for="sexoO">Outros</label>
+                                            <br>
+                                            <label for="txtConfirmaSenha">Confirmação da senha: *</label>
+                                            <br>
+                                            <input type="password" name="txtConfirmaSenha" id="txtConfirmaSenha" required>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    
+                                </fieldset>
+                                <fieldset class="fotografia">
+                                    <legend>Fotografia</legend>
+                                    <div class="content">
+                                        <img src="images/profile.png">
+                                    </div>
+                                    <button id="botaoEnviar">
+                                        Enviar Arquivo
+                                    </button>
+                                    
+                                </fieldset>
+                            </div>
+                            <fieldset class="box2">
+                                <legend>Endereço</legend>
+                                <div class="flexEndereco">
+                                    <div id="rua">
+                                        <label for="txtRua">Rua:</label>
+                                        <br>
+                                        <input type="text" name="txtRua" id="txtRua">
+                                    </div>
+                                    <div id="numero">
+                                        <label for="txtNumero">Numero:</label>
+                                        <br>
+                                        <input type="text" name="txtNumero" id="txtNumero">
+                                    </div>
+                                    <div id="complemento">
+                                        <label for="txtComplemento">Complemento:</label>
+                                        <br>
+                                        <input type="text" name="txtComplemento" id="txtComplemento">
+                                    </div>
+                                </div>
+                                <div class="flexEndereco">
+                                    <div id="bairro">
+                                        <label for="txtBairro">Bairro:</label>
+                                        <br>
+                                        <input type="text" name="txtBairro" id="txtBairro">
+                                    </div>
+                                    <div id="cidade">
+                                        <label for="txtCidade">Cidade:</label>
+                                        <br>
+                                        <input type="text" name="txtCidade" id="txtCidade">
+                                    </div>
+                                    <div id="estado">
+                                        <label for="txtEstado">Estado:</label>
+                                        <br>
+                                        <select name="sltEstado" id="sltEstado">
+                                            <option value="SP">SP</option>
+                                            <option value="RJ">RJ</option>
+                                            <option value="RS">RS</option>
+                                            <option value="AM">AM</option>
+                                            <option value="BA">BA</option>
+                                            <option value="MT">MT</option>
+                                            <option value="SC">SC</option>
+                                            <option value="PA">PA</option>
+                                            <option value="MG">MG</option>
+                                            <option value="ES">ES</option>
+                                        </select>
+                                    </div>
+
+
+
+
+                            </fieldset>
+
+                            <fieldset class="diversos">
+                                <legend>Diversos</legend>
+
+                                <fieldset class="interesse">
+                                    <legend>Área de interesse</legend>
+                                </fieldset>
+
+                                <fieldset class="corPreferencia">
+                                    <legend>Cor de preferência</legend>
+                                </fieldset>
+
+                            </fieldset>
+                        </div>
+                    </form>
+                </main>
+                <footer>
+                    <div class="content">
+                        <div class="integrantes">
+                            <p>Fernando Tessmann - RM559617</p>
+                            <p>Rodrigo Morales - RM560209</p>
+                            <p>Ruan Gaspar - RM559567</p>
+                        </div>
+
+                    </div>
+                </footer>
+            </div>
+        
+        <script src="js/script.js"></script>
+    </body>
+</html>
