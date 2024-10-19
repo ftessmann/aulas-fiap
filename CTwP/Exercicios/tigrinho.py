@@ -5,7 +5,7 @@ print("<-- Bem vindo ao Cassino do Tigrinho! -->")
 saldo = int(input("Digite o saldo inicial do jogador: "))
 
 while saldo > 0:
-    print(f"\nSaldo atual: {saldo:.2f}")
+    print(f"\nSaldo atual: {saldo}")
     aposta = int(input("Digite o valor da aposta (máximo 10 créditos): "))
 
     if aposta > saldo:
