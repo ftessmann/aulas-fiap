@@ -61,10 +61,10 @@ public class Servidor {
 
     // agrupando mensagens por usuario
     public Map<Usuario, List<Mensagem>> agruparMensagensPorUsuario() {
-        Map<Usuario, List<Mensagem>> mensagensPorAutor = canais.stream()
+        Map<Usuario, List<Mensagem>> mensagensPorUsuario = canais.stream()
                 .flatMap(canal -> canal.getMensagens().stream())
                 .collect(Collectors.groupingBy(Mensagem::getUsuario));
-        mensagensPorAutor.forEach((usuario, mensagens) -> {
+        mensagensPorUsuario.forEach((usuario, mensagens) -> {
             System.out.println("Usuário: " + usuario.getNome());
             mensagens.forEach(mensagem ->
                     System.out.println("    Conteúdo: " + mensagem.getConteudo() +
@@ -72,7 +72,7 @@ public class Servidor {
             );
         });
 
-        return mensagensPorAutor;
+        return mensagensPorUsuario;
     }
 
     public int contarMensagensNoServidor() {
