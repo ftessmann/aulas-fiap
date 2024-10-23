@@ -1,0 +1,2 @@
+Olá, criei um novo arquivo de texto.
+Esta linha foi add pelo programa
