@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papel, Pedra, Tesoura</title>
+</head>
+<body>
+    <h1>Jogo Papel, Pedra, Tesoura</h1>
+
+    <div class="pontuacao">
+        <p>Sua pontuação: <span id="pontuacao-jogador">0</span></p>
+        <p>Pontuação do computador: <span id="pontuacao-computador">0</span></p>
+    </div>
+
+    <div>
+        <button onclick="jogar(1)">Papel</button>
+        <button onclick="jogar(2)">Pedra</button>
+        <button onclick="jogar(3)">Tesoura</button>
+    </div>
+
+    <p class="resultado" id="resultado"></p>
+    <button onclick="resetarJogo()">Resetar Jogo</button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
