@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+    </head>
+    <body>
+       <form>
+            <label for="cpf">CPF: </label>
+            <input type="text" name="cpf" id="cpf" onkeypress="mascara('cpf', this)" maxlength="14">
+            <br>
+            <label for="cep">CEP: </label>
+            <input type="text" name="cep" id="cep" onkeypress="mascara('cep', this)" maxlength="9">
+            <br>
+            <label for="tel">Telefone: </label>
+            <input type="text" name="tel" id="tel" onkeypress="mascara('tel', this)" maxlength="14">
+       </form>
+
+       <script src="js/script.js"></script>
+
+    </body>
+</html>
