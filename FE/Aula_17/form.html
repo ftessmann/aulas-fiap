@@ -6,15 +6,20 @@
         <title>Form</title>
     </head>
     <body>
-       <form>
+       <form method="post" onkeypress="return desabilitaEnter(event)">
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome" id="nome" maxlength="14">
+            <br>
             <label for="cpf">CPF: </label>
-            <input type="text" name="cpf" id="cpf" onkeypress="mascara('cpf', this)" maxlength="14">
+            <input type="text" name="cpf" id="cpf" onkeypress="mascara('cpf', this)" onkeydown="return somenteNumero(event)" maxlength="14">
             <br>
             <label for="cep">CEP: </label>
-            <input type="text" name="cep" id="cep" onkeypress="mascara('cep', this)" maxlength="9">
+            <input type="text" name="cep" id="cep" onkeypress="mascara('cep', this)" onkeydown="return somenteNumero(event)" maxlength="9">
             <br>
             <label for="tel">Telefone: </label>
-            <input type="text" name="tel" id="tel" onkeypress="mascara('tel', this)" maxlength="14">
+            <input type="text" name="tel" id="tel" onkeypress="mascara('tel', this)" onkeydown="return somenteNumero(event)" maxlength="14">
+            <br>
+            <input type="submit">
        </form>
 
        <script src="js/script.js"></script>

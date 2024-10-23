@@ -48,8 +48,6 @@ const cpf = document.getElementById("cpf");
 const cep = document.getElementById("cep");
 const tel = document.getElementById("tel");
 
-
-
 function mascara(formato, campo) {
     obj = eval(campo);
 
@@ -61,15 +59,11 @@ function mascara(formato, campo) {
     if (formato == 'cpf') {
         if (obj.value.length == 3) {
             obj.value = obj.value + sep1
-        } else {
-            if (obj.value.length == 7) {
-                obj.value = obj.value + sep1
-            } else {
-                if (obj.value.length == 11) {
-                    obj.value = obj.value + sep2
-                }
-            }
-        }  
+        } else if (obj.value.length == 7) {
+            obj.value = obj.value + sep1
+        } else if (obj.value.length == 11) {
+            obj.value = obj.value + sep2
+        }
     }
 
     if (formato == 'cep') {
@@ -87,4 +81,17 @@ function mascara(formato, campo) {
             obj.value = obj.value + sep2;
         }
     }
+}
+
+function somenteNumero(e) {
+    var tecla = (window.event)?event.keyCode:e.which;
+    if ((tecla == 8) || (tecla == 9) || (tecla > 47 && tecla < 58) || (tecla > 95 && tecla < 106)) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function desabilitaEnter(e) {
+    if (e.keyCode == 13) return false
 }
