@@ -1,0 +1,28 @@
+button {
+    width: 120px;
+    height: 30px;
+}
+
+span {
+    font-size: 22px;
+}
+
+#campo-andar {
+    width: 1300px;
+    height: 500px;
+    position: relative;
+}
+
+#container {
+    width: 273px;
+    height: 187px;
+    position: absolute;
+}
+
+footer {
+    padding: 10px;
+    width: 1300px;
+    height: 150px;
+    background-color: #bbb;
+    text-align: center;
+}
