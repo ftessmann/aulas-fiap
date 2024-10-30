@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <script> 
+        const logadoS = sessionStorage.getItem('logado');
+        const logadoL = localStorage.getItem('logado');
+        var nome = localStorage.getItem('nome');
+
+        if (!logadoS && !logadoL) {
+            localStorage.setItem("erro", "401");
+            windows.location.href = "form-login.html";
+        }
+
+        if (!logado) {
+            localStorage.setItem("erro", "401")
+            window.location.href = "form-login.html"
+        }
+
+        function logout() {
+            sessionStorage.setItem('logado', 'false');
+            localStorage.setItem('nome', 'null');
+            localStorage.setItem('erro', '0');
+            
+            localStorage.clear();
+
+            sessionStorage.clear();
+            
+            window.location.href = "form-login.html";
+        }
+    </script>
+</head>
+<body>
+    <h2>Profile</h2>
+    <p>Nome: <script>document.write(nome)</script></p>
+    <br>
+    <button type="button" onclick="logout()">
+        Logout
+    </button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

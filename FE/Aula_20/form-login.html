@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Login</title>
+</head>
+<body>
+    <h2>Login</h2>
+    <form>
+        <label for="txtUser">Usuário</label>
+        <input type="text" name="txtUser" id="txtUser">
+        <br>
+        <label for="pwdPass">Senha:</label>
+        <input type="password" name="pwdPass" id="pwdPass">
+        <br>
+        <input type="checkbox" id="manterLogado" name="manterLogado">
+        <label for="manterLogado">Manter Logado</label>
+        <br>
+        <button type="button" onclick="validar()">Login</button>
+        <br>
+        <span id="erroText">
+
+        </span>
+    </form>
+
+    <script>
+        var erro = localStorage.getItem('erro');
+        var erroText = document.getElementById("erroText")
+        var erroMsg = "";
+        if (erro == 403) {
+            erroMsg = "Usuário ou senha incorreto"
+        } else if (erro == 401) {
+            erroMsg = "Pagina restrita"
+        }
+        erroText.innerText = erroMsg
+    </script>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
