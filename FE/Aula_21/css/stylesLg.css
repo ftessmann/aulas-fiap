@@ -1,0 +1,5 @@
+@media (min-width: 992px) and (max-width: 1199.9px) {
+    body {
+        background-color: gray;
+    }
+}

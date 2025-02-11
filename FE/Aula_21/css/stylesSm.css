@@ -1,0 +1,5 @@
+@media (min-width: 600.1px) and (max-width: 767.9px) {
+    body {
+        background-color: blue;
+    }
+}
