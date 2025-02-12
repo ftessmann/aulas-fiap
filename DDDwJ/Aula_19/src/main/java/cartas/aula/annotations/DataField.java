@@ -1,4 +1,4 @@
-package cartas.aula;
+package cartas.aula.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

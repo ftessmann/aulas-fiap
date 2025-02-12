@@ -1,4 +1,4 @@
-package cartas.aula;
+package cartas.aula.annotations;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
