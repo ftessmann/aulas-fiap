@@ -6,10 +6,7 @@ import lombok.*;
 @Data // cria getters e setters, equals, hashcode e toString
 @NoArgsConstructor // cria construtor vazio
 @AllArgsConstructor // cria contrutor completo
-public class Carta {
-    @DataField(prompt = "ID da carta")
-    private int id;
-
+public class Carta extends BaseEntity{
     @DataField(prompt = "Nome da carta")
     private String nome;
 

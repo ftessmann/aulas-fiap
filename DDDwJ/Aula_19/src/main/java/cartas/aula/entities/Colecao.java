@@ -7,8 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Colecao {
-    private int id;
+public class Colecao extends BaseEntity {
     private String nome;
     private String codigo;
     private String dataLancamento;

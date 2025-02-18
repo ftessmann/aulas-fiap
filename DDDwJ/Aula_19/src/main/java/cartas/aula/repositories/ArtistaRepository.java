@@ -33,7 +33,26 @@ public class ArtistaRepository implements CrudRepository<Artista> {
     }
 
     @Override
-    public List<Artista> listar() {
+    public void delete(Artista object) {
+        object.setDeleted(true);
+    }
+
+    @Override
+    public void deleteById(int id) {
+        var set = artistas.stream()
+                .filter(a -> a.getId() == id)
+                .findFirst();
+
+        set.ifPresent(a -> a.setDeleted(true));
+    }
+
+    @Override
+    public List<Artista> listarTodos() {
         return artistas;
+    }
+
+    @Override
+    public List<Artista> listar() {
+        return artistas.stream().filter(a -> !a.isDeleted()).toList();
     }
 }

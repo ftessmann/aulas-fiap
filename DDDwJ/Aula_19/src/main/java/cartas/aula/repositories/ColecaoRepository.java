@@ -34,7 +34,26 @@ public class ColecaoRepository implements CrudRepository<Colecao> {
     }
 
     @Override
-    public List<Colecao> listar() {
+    public void delete(Colecao object) {
+        object.setDeleted(true);
+    }
+
+    @Override
+    public void deleteById(int id) {
+        var set = colecoes.stream()
+                .filter(s -> s.getId() == id)
+                .findFirst();
+
+        set.ifPresent(s -> s.setDeleted(true));
+    }
+
+    @Override
+    public List<Colecao> listarTodos() {
         return colecoes;
+    }
+
+    @Override
+    public List<Colecao> listar() {
+        return colecoes.stream().filter(s -> !s.isDeleted()).toList();
     }
 }
