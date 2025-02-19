@@ -1,0 +1,1 @@
+este é um texto para exportar para um arquivo

@@ -1,0 +1,25 @@
+2025-02-19 08:27:25 [main] INFO  cartas.aula.Main - Sistema iniciando 
+2025-02-19 08:27:30 [main] INFO  cartas.aula.Main - Sistema encerrando 
+2025-02-19 08:27:58 [main] INFO  cartas.aula.Main - Sistema encerrando 
+2025-02-19 08:28:37 [main] INFO  cartas.aula.Main - Sistema iniciando 
+2025-02-19 08:38:45 [main] INFO  cartas.aula.Main - Sistema iniciando 
+2025-02-19 08:38:56 [main] ERROR cartas.aula.Main - Erro ao cadastrar coleção 
+java.util.InputMismatchException: null
+	at java.util.Scanner.throwFor(Scanner.java:964) ~[?:?]
+	at java.util.Scanner.next(Scanner.java:1619) ~[?:?]
+	at java.util.Scanner.nextInt(Scanner.java:2284) ~[?:?]
+	at java.util.Scanner.nextInt(Scanner.java:2238) ~[?:?]
+	at cartas.aula.Main.CadastrarColecao(Main.java:58) [classes/:?]
+	at cartas.aula.Main.main(Main.java:34) [classes/:?]
+2025-02-19 08:52:53 [main] INFO  cartas.aula.Main - Sistema iniciando 
+2025-02-19 08:53:14 [main] INFO  cartas.aula.Main - Coleção registrada com sucesso Colecao(nome=tralala, codigo=nova colecao, dataLancamento=2019-04-12) 
+2025-02-19 08:56:05 [main] INFO  cartas.aula.Main - Sistema encerrando 
+2025-02-19 09:00:13 [main] INFO  cartas.aula.Main - Sistema iniciando 
+2025-02-19 09:00:17 [main] INFO  cartas.aula.Main - Sistema encerrando 
+2025-02-19 09:00:56 [main] INFO  cartas.aula.Main - Sistema iniciando 
+2025-02-19 09:18:57 [main] INFO  cartas.aula.Main - Sistema iniciando 
+2025-02-19 09:28:49 [main] INFO  cartas.aula.Main - Sistema iniciando 
+2025-02-19 09:29:30 [main] INFO  cartas.aula.Main - Sistema iniciando 
+2025-02-19 09:29:36 [main] INFO  cartas.aula.Main - Sistema encerrando 
+2025-02-19 09:33:42 [main] INFO  cartas.aula.Main - Sistema iniciando 
+2025-02-19 09:34:13 [main] INFO  cartas.aula.Main - Sistema encerrando 

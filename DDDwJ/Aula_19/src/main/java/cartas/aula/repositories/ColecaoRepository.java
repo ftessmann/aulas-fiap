@@ -2,6 +2,10 @@ package cartas.aula.repositories;
 
 import cartas.aula.entities.Colecao;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -55,5 +59,23 @@ public class ColecaoRepository implements CrudRepository<Colecao> {
     @Override
     public List<Colecao> listar() {
         return colecoes.stream().filter(s -> !s.isDeleted()).toList();
+    }
+
+    public void exportar() {
+        var conteudo = "este é um texto para exportar para um arquivo";
+        var caminho = "./exports/" + LocalDateTime.now().toString() + "_colecoes.txt";
+
+        try {
+            var file = new File(caminho);
+            if (!file.exists()) {
+                file.createNewFile();
+            }
+            var writer = new FileWriter(file);
+            writer.write(conteudo);
+            writer.close();
+            System.out.println("Arquivo exportado com sucesso.");
+        } catch (IOException e) {
+            System.out.println("Erro ao exportar arquivo.");
+        }
     }
 }
