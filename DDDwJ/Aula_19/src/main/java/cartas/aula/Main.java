@@ -26,7 +26,8 @@ public class Main {
                     [3] - Remover coleção
                     [4] - Listar todas as coleções (apenas Admin)
                     [5] - Exportar arquivo de coleções
-                    [6] - Sair
+                    [6] - Importar arquivo
+                    [7] - Sair
                     """);
             var opcao = scan.nextInt();
             scan.nextLine();
@@ -44,9 +45,14 @@ public class Main {
                     ListarTodasColecoes(colecaoRepository);
                     break;
                 case 5:
-                    colecaoRepository.exportar();
+                    colecaoRepository.exportarParaJson();
                     break;
                 case 6:
+                    System.out.println("Digite o nome do arquivo: ");
+                    var arquivo = scan.nextLine();
+                    colecaoRepository.importar(arquivo);
+                    break;
+                case 7:
                     break label;
                 default:
                     System.out.println("Opção inválida");
