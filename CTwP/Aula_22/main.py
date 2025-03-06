@@ -42,14 +42,15 @@ print(temperaturas_altas)
 print(temperaturas_muito_altas)
 
 print(len(temps))
-print(len(temperaturas_altas))
-print(len(temperaturas_muito_altas))
+print(f'Proporção de temperaturas altas: {len(temperaturas_altas)  * 0.1}%')
+print(f'Proporção de temperaturas muito altas: {len(temperaturas_muito_altas)  * 0.1}%')
 
 path_json = "CTwP/Aula_22/members.json"
 
 with open(path_json) as json_file:
     members = json.load(json_file)
     
-members_names = [ member['ParliamentaryName'] for member in members ]
+members_names = [member['ParliamentaryName'] for member in members if member.get('IsCurrent') is True]
+members_inactive = [member['ParliamentaryName'] for member in members if member.get('IsCurrent') is False]
 
 print(members_names)
