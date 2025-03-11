@@ -32,3 +32,18 @@ java.util.InputMismatchException: null
 2025-02-26 08:28:17 [main] INFO  cartas.aula.Main - Sistema iniciando 
 2025-02-26 08:33:13 [main] INFO  cartas.aula.Main - Sistema iniciando 
 2025-02-26 08:37:20 [main] INFO  cartas.aula.Main - Sistema encerrando 
+2025-03-11 08:50:28 [main] INFO  cartas.aula.Main - Sistema iniciando 
+2025-03-11 08:50:28 [main] INFO  cartas.aula.Main - Testando banco 
+2025-03-11 08:54:34 [main] INFO  cartas.aula.Main - Sistema iniciando 
+2025-03-11 08:54:34 [main] INFO  cartas.aula.Main - Testando banco 
+2025-03-11 08:54:35 [main] INFO  cartas.aula.Main - conectado ao banco 
+2025-03-11 09:44:05 [main] INFO  cartas.aula.Main - Sistema iniciando 
+2025-03-11 09:44:05 [main] INFO  cartas.aula.Main - Testando banco 
+2025-03-11 09:44:05 [main] INFO  cartas.aula.Main - conectado ao banco 
+2025-03-11 09:45:31 [main] INFO  cartas.aula.Main - Sistema iniciando 
+2025-03-11 09:45:31 [main] INFO  cartas.aula.Main - Testando banco 
+2025-03-11 09:45:32 [main] INFO  cartas.aula.Main - conectado ao banco 
+2025-03-11 09:46:15 [main] INFO  cartas.aula.Main - Sistema iniciando 
+2025-03-11 09:46:15 [main] INFO  cartas.aula.Main - Testando banco 
+2025-03-11 09:46:16 [main] INFO  cartas.aula.Main - conectado ao banco 
+2025-03-11 09:47:29 [main] INFO  cartas.aula.Main - Sistema encerrando 
