@@ -1,6 +1,7 @@
 package cartas.aula.repositories;
 
 import java.util.List;
+import java.util.Optional;
 
 // <T> implementa tipo T generico
 public interface CrudRepository<T> {
@@ -16,4 +17,5 @@ public interface CrudRepository<T> {
 
     List<T> listarTodos();
     List<T> listar();
+    Optional<T> buscarPorId(int id);
 }

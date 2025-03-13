@@ -3,6 +3,7 @@ package cartas.aula.repositories;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 
 // implementação genérica dos repositories
 public class CrudRepositoryImpl<T> implements CrudRepository<T> {
@@ -47,5 +48,10 @@ public class CrudRepositoryImpl<T> implements CrudRepository<T> {
     @Override
     public List<T> listar() {
         return List.of();
+    }
+
+    @Override
+    public Optional<T> buscarPorId(int id) {
+        return Optional.empty();
     }
 }

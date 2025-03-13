@@ -47,3 +47,10 @@ java.util.InputMismatchException: null
 2025-03-11 09:46:15 [main] INFO  cartas.aula.Main - Testando banco 
 2025-03-11 09:46:16 [main] INFO  cartas.aula.Main - conectado ao banco 
 2025-03-11 09:47:29 [main] INFO  cartas.aula.Main - Sistema encerrando 
+2025-03-12 10:43:20 [main] INFO  cartas.aula.Main - Sistema iniciando 
+2025-03-12 10:43:20 [main] INFO  cartas.aula.Main - Testando banco 
+2025-03-12 10:43:21 [main] INFO  cartas.aula.Main - conectado ao banco 
+2025-03-12 10:53:35 [main] INFO  cartas.aula.Main - Sistema iniciando 
+2025-03-12 10:53:35 [main] INFO  cartas.aula.Main - Testando banco 
+2025-03-12 10:53:35 [main] INFO  cartas.aula.Main - conectado ao banco 
+2025-03-12 10:53:55 [main] INFO  cartas.aula.Main - Coleção registrada com sucesso Colecao(nome=Ice Age, codigo=ICA, dataLancamento=2023-03-12) 

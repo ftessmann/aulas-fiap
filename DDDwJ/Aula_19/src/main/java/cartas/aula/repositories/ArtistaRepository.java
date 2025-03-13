@@ -4,6 +4,7 @@ import cartas.aula.entities.Artista;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 public class ArtistaRepository implements CrudRepository<Artista> {
     List<Artista> artistas = new ArrayList<>();
@@ -54,5 +55,10 @@ public class ArtistaRepository implements CrudRepository<Artista> {
     @Override
     public List<Artista> listar() {
         return artistas.stream().filter(a -> !a.isDeleted()).toList();
+    }
+
+    @Override
+    public Optional<Artista> buscarPorId(int id) {
+        return Optional.empty();
     }
 }

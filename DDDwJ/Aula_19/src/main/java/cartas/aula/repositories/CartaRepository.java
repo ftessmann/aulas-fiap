@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @Data
 @NoArgsConstructor
@@ -60,5 +61,10 @@ public class CartaRepository implements CrudRepository<Carta> {
     @Override
     public List<Carta> listar() {
         return cartas.stream().filter(c -> !c.isDeleted()).toList();
+    }
+
+    @Override
+    public Optional<Carta> buscarPorId(int id) {
+        return Optional.empty();
     }
 }

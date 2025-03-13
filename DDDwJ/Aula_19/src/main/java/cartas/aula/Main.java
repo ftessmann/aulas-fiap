@@ -39,7 +39,8 @@ public class Main {
                         [4] - Listar todas as coleções (apenas Admin)
                         [5] - Exportar arquivo de coleções
                         [6] - Importar arquivo
-                        [7] - Sair
+                        [7] - Buscar colecao
+                        [8] - Sair
                         """);
                 var opcao = scan.nextInt();
                 scan.nextLine();
@@ -65,6 +66,11 @@ public class Main {
                         colecaoRepository.importar(arquivo);
                         break;
                     case 7:
+                        System.out.println("Buscar por Id: ");
+                        var id = scan.nextInt();
+                        System.out.println(colecaoRepository.buscarPorId(id));
+                        break;
+                    case 8:
                         break label;
                     default:
                         System.out.println("Opção inválida");
@@ -81,9 +87,6 @@ public class Main {
     public static void CadastrarColecao(ColecaoRepository repository) {
         try {
             var scan = new Scanner(System.in);
-            System.out.println("Digite o ID da coleção");
-            var id = scan.nextInt();
-            scan.nextLine();
             System.out.println("Digite o nome da coleção:");
             var nome = scan.nextLine();
             System.out.println("Digite o código da coleção:");
@@ -91,7 +94,6 @@ public class Main {
             System.out.println("Digite a data de lançamento:");
             var dataLancamento = scan.nextLine();
             var colecao = new Colecao(nome, codigo, dataLancamento);
-            colecao.setId(id);
             repository.adicionar(colecao);
             logger.info("Coleção registrada com sucesso {}", colecao);
         } catch (Exception e) {
