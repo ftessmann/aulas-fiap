@@ -3,3 +3,6 @@
 
 # zip files
 *.zip
+
+# datasets
+*.csv
