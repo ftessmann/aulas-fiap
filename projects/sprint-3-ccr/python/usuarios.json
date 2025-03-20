@@ -1,0 +1,14 @@
+{
+    "fernando@mail.com": {
+        "nome": "Fernando",
+        "senha_hash": "$2b$12$TjX9qLfX2OUnLdUMUYmz1.uZwfXAiicPwo3zL8InnNj5Bg0gMqKr6",
+        "role": "Gerente",
+        "notificacoes_vistas": []
+    },
+    "joao@mail.com": {
+        "nome": "João",
+        "senha_hash": "$2b$12$Bd5oOHDLYK5tgGHEwSMNQel/qHWz/x4noaeQ5s5X1OO6WB3Ptn1Q6",
+        "role": "Manutenção",
+        "notificacoes_vistas": []
+    }
+}

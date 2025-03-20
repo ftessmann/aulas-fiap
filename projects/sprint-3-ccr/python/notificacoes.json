@@ -1,0 +1,18 @@
+{
+    "1": {
+        "id": "1",
+        "email_usuario": "fernando@mail.com",
+        "mensagem": "Novo incidente Manutenção com gravidade Alta foi registrado.",
+        "incidente_id": "1",
+        "data_criacao": "2025-03-15 12:25:09",
+        "vista": true
+    },
+    "2": {
+        "id": "2",
+        "email_usuario": "joao@mail.com",
+        "mensagem": "Novo incidente Manutenção com gravidade Alta foi registrado.",
+        "incidente_id": "1",
+        "data_criacao": "2025-03-15 12:25:09",
+        "vista": true
+    }
+}

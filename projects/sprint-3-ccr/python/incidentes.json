@@ -1,0 +1,11 @@
+{
+    "1": {
+        "id": "1",
+        "email": "joao@mail.com",
+        "nome": "João",
+        "descricao": "Trem quebrado na via",
+        "categoria": "Manutenção",
+        "gravidade": "Alta",
+        "data_criacao": "2025-03-15 12:25:09"
+    }
+}
